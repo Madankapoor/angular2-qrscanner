@@ -38,3 +38,8 @@ export class AppModule { }
   [updateTime]="500"     <!-- miliseconds between new capture              (default: 500) -->
   (onRead)="decodedOutput($event)"></qr-scanner>
 ```
+
+
+Try it online: http://webqr.com
+
+This is a port of ZXing qrcode scanner, http://code.google.com/p/zxing.
